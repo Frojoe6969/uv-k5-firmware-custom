@@ -21,8 +21,8 @@ ENABLE_AIRCOPY_RX_REBOOT         := 0
 ENABLE_FMRADIO_64_76             := 0
 ENABLE_FMRADIO_76_90             := 0
 ENABLE_FMRADIO_76_108            := 0
-ENABLE_FMRADIO_875_108           := 1
-ENABLE_FMRADIO_64_108            := 0
+ENABLE_FMRADIO_875_108           := 0
+ENABLE_FMRADIO_64_108            := 1
 # NOAA 1.2 kB
 ENABLE_NOAA                      := 0
 # Voice 1.7 kB
@@ -36,13 +36,13 @@ ENABLE_REDUCE_LOW_MID_TX_POWER   := 1
 ENABLE_ALARM                     := 0
 ENABLE_TX1750                    := 0
 # MDC1200 2.8 kB
-ENABLE_MDC1200                   := 0
+ENABLE_MDC1200                   := 1
 ENABLE_MDC1200_SHOW_OP_ARG       := 1
 ENABLE_PWRON_PASSWORD            := 0
 ENABLE_RESET_AES_KEY             := 0
 ENABLE_BIG_FREQ                  := 0
 # smaa bolf 580 B
-ENABLE_SMALL_BOLD                := 1
+ENABLE_SMALL_BOLD                := 0
 # smallest font 2 kB
 ENABLE_SMALLEST_FONT             := 0
 # trim trailing 44 B
@@ -52,13 +52,13 @@ ENABLE_WIDE_RX                   := 1
 ENABLE_TX_WHEN_AM                := 0
 # Freq calibration 188 B
 ENABLE_F_CAL_MENU                := 0
-ENABLE_TX_UNLOCK                 := 0
+ENABLE_TX_UNLOCK                 := 1
 ENABLE_CTCSS_TAIL_PHASE_SHIFT    := 1
 ENABLE_CONTRAST                  := 1
 ENABLE_BOOT_BEEPS                := 0
 ENABLE_DTMF_CALL_FLASH_LIGHT     := 1
 ENABLE_FLASH_LIGHT_SOS_TONE      := 1
-ENABLE_SHOW_CHARGE_LEVEL         := 0
+ENABLE_SHOW_CHARGE_LEVEL         := 1
 ENABLE_REVERSE_BAT_SYMBOL        := 1
 ENABLE_FREQ_SEARCH_TIMEOUT       := 0
 ENABLE_CODE_SEARCH_TIMEOUT       := 0
@@ -78,7 +78,7 @@ ENABLE_RX_SIGNAL_BAR             := 1
 # Tx Audio Bar 300 B
 ENABLE_TX_AUDIO_BAR              := 0
 # Side Button Menu 300 B
-ENABLE_SIDE_BUTT_MENU            := 0
+ENABLE_SIDE_BUTT_MENU            := 1
 # Key Lock 400 B
 ENABLE_KEYLOCK                   := 0
 ENABLE_PANADAPTER                := 0
